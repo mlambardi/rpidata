@@ -12,4 +12,6 @@ It's a humid environment, as you'll see. Around 10 a.m. every day, I open my roo
 
 Also, there are very few variables. Can you do enough with so little? Choose whether to use all the variables or just the time and the room's temperature.
 
+(Maybe it's not important, but the readings are scheduled at times HH:MM:00, yet it takes few seconds to sense and record data. This amount of time may depend on concurrent activity, which may cause heating?)
+
 Have fun.
