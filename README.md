@@ -6,6 +6,8 @@ I got a new aluminium heat sink case for my Raspberry Pi 2 Model B. Then, I inst
 * relative humidity (%), also sensed by the DHT22,
 * internal CPU temperature (Celsius).
 
+![Time series plot for the three variables in the dataset](timeseries.png)
+
 Feel free to experiment any method you like, in order to practice or to make other people practice. Can you predict the room's temperature in the short term, so that I can lower the sampling frequency by a significant amount, say, down to just 1 reading per hour? Can you explain your solution in simple terms?
 
 It's a humid environment, as you'll see. Around 10 a.m. every day, I open my room's window, so both temperature and humidity will shift a bit. Is there a way to automatically detect these outliers? Which smoothing methods can work reliably even without removing the outliers?
