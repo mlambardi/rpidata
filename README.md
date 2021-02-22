@@ -17,3 +17,17 @@ Also, there are very few variables. Can you do enough with so little? Choose whe
 (Maybe it's not important, but the readings are scheduled at times HH:MM:00, yet it takes few seconds to sense and record data. This amount of time may depend on concurrent activity, which may cause heating?)
 
 Have fun.
+
+## Baseline model
+
+The baseline, the placebo-level model, is the linear model for the room's temperature versus just the CPU's temperature. You see the fit is pretty good:
+
+![Time series for room's temperature, with linear model's prediction](lm.png)
+
+![Room's temperature prediction error](lmerr.png)
+
+So the linear model makes a pretty decent work: it gets the room's temperature up to a *substantially negligible* error, as personally I just cannot notice a temperature shift about 2 degrees.
+
+Moreover, the linear model, though not inherently robust, suffices here in filtering out all morning outliers.
+
+But you see, the prediction error persists over time, as positive errors lead to subsequent positive errors, the same for negative errors, due to a likely auto-regressive process. So, can a time series model reduce the error further? This can be an exercise for practitioners.
