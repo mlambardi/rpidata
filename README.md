@@ -1,3 +1,5 @@
+See the **Wiki** section for more examples.
+
 # RPi Temperature data
 
 I got a new aluminium heat sink case for my Raspberry Pi 2 Model B. Then, I installed a DHT22 temperature and humidity sensor. Now, every minute for 5 days some readings were recorded:
