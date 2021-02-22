@@ -1,4 +1,6 @@
-See the **Wiki** section for more examples.
+The data reported here come exclusively from an ongoing experiment in my house.
+
+See the **Wiki** section for more examples apart from this readme.
 
 # RPi Temperature data
 
