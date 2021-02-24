@@ -21,3 +21,13 @@ There are four types of variables in the *pc.csv* dataset.
 All variables are cheap to retrieve, so no need to surrogate anything, no regression nor the like. Probably it's more the case for unsupervised learning, like cluster analysis and stuff.
 
 I'll detail this section later.. Enjoy!
+
+## Data input
+
+Try to load data in **R**, you don't need a local copy of the repository:
+
+`data <- read.csv("https://raw.githubusercontent.com/mlambardi/rpidata/main/DIY/pc.csv", header=T, sep=",")`
+
+It's best to convert the timestamp in POSIX so that plot utilities will handle it nicely:
+
+`data$timestamp <- as.POSIXct(data$timestamp, format="%Y-%m-%d %H:%M:%OS")`
